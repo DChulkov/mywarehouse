@@ -1,6 +1,6 @@
 "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "node",
+    "build": "node build",
+    "start": "node index.html",
     "heroku-postbuild": "npm run build"
   }
